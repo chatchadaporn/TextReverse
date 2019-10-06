@@ -24,12 +24,12 @@ public class Run {
 			String [] textData1 = textData.split("");
 			// ex.1
 			//call static function for sorting text 
-			//	data = SortText.SortIgnoreCase(textData1); 
+				data = SortText.SortIgnoreCase(textData1); 
 			
 			// ex.2
 			//call function for sorting text 
-			SortText sort = new SortText();
-			data = sort.SortIgnoreCase1(textData1);
+			//SortText sort = new SortText();
+			//data = sort.SortIgnoreCase1(textData1);
 			
 			//add text to list
 			al.add(data); 
